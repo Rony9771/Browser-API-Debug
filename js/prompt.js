@@ -20,3 +20,14 @@ const showConfirm = () =>{
     console.log('Not so good')
   }
 }
+
+const showPrompt = () =>{
+  const name =prompt('Tell me your name')
+  console.log(name);
+
+  if(!!name){ //check condition true or not
+    console.log('Welcome here',name)
+
+  }
+
+}
